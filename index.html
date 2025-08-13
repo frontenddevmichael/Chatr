@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatr Desktop - Secure Communication Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/app.js" defer></script>
+</head>
+
+<body>
+    <div class="loader-container">
+        <div class="loader">
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+        </div>
+
+        <div class="loader-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <div class="loader-text">Loading your conversations...</div>
+
+        <div class="loading-progress">
+            <div class="progress-bar"></div>
+        </div>
+    </div>
+    <!-- Mobile Menu Button -->
+    <div class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-logo">
+            <h1>CHATR</h1>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="#" class="nav-item active">
+                <i class="fas fa-comments"></i>
+                <span class="notification"></span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-user-friends"></i>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-video"></i>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-file-alt"></i>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-cog"></i>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-question-circle"></i>
+            </a>
+        </nav>
+
+        <div class="sidebar-settings">
+
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h2>Dashboard</h2>
+                <div class="header-actions">
+                    <div class="search-container">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <div class="user-actions">
+                        <div class="notification-bell">
+                            <i class="fas fa-bell"></i>
+                            <span class="notification"></span>
+                        </div>
+                        <div class="user-avatar">U</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Connect in the Future</h1>
+                <p>Experience seamless communication with Chatr. Our platform offers secure, private, and innovative
+                    ways to connect with friends, family, and colleagues.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Get Started
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i class="fas fa-play-circle"></i>
+                        Watch Demo
+                    </button>
+                </div>
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <div class="stat-number">10M+</div>
+                        <div class="stat-label">Active Users</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">256-bit</div>
+                        <div class="stat-label">Encryption</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content Grid -->
+        <div class="content-grid">
+            <!-- Features Section -->
+            <div class="features-section">
+                <div class="section-header">
+                    <h2>Why Choose Chatr?</h2>
+                    <p>Chatr is designed with your privacy and security in mind. Enjoy a range of features that make
+                        communication effortless and enjoyable.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>End-to-End Encryption</h3>
+                        <p>Your messages are protected with military-grade encryption, ensuring only you and the
+                            recipient can access your conversations.</p>
+                        <a href="#" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Private Channels</h3>
+                        <p>Create secure, invite-only channels for sensitive discussions with advanced permission
+                            controls and moderation tools.</p>
+                        <a href="#" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Instant Messaging</h3>
+                        <p>Send and receive messages in real-time with our optimized global network, ensuring minimal
+                            latency and maximum reliability.</p>
+                        <a href="#" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3>File Sharing</h3>
+                        <p>Share documents, images, and videos of any size with built-in preview and secure cloud
+                            storage integration.</p>
+                        <a href="#" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Voice & Video Calls</h3>
+                        <p>Experience crystal-clear HD video and audio calls with advanced noise cancellation and
+                            background blur.</p>
+                        <a href="#" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Custom Themes</h3>
+                        <p>Personalize your Chatr experience with custom themes, color schemes, and dark/light mode
+                            options.</p>
+                        <a href="#" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Preview Sidebar -->
+            <div class="chat-preview">
+                <h3><i class="fas fa-comment-dots"></i> Live Chat Preview</h3>
+
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message">
+                        <div class="message-avatar avatar-liam">L</div>
+                        <div class="message-content">
+                            <div class="message-sender">
+                                Liam <span class="time">10:24 AM</span>
+                            </div>
+                            <div class="message-bubble received">Hey, have you tried the new Chatr app? It's amazing!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="message sent">
+                        <div class="message-avatar avatar-sophia">S</div>
+                        <div class="message-content">
+                            <div class="message-sender">
+                                You <span class="time">10:25 AM</span>
+                            </div>
+                            <div class="message-bubble sent">Not yet, but I've heard great things! What do you like
+                                about it?</div>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="message-avatar avatar-liam">L</div>
+                        <div class="message-content">
+                            <div class="message-sender">
+                                Liam <span class="time">10:26 AM</span>
+                            </div>
+                            <div class="message-bubble received">The end-to-end encryption and private channels are a
+                                game-changer. Plus, the interface is so sleek!</div>
+                        </div>
+                    </div>
+
+                    <div class="message sent">
+                        <div class="message-avatar avatar-sophia">S</div>
+                        <div class="message-content">
+                            <div class="message-sender">
+                                You <span class="time">10:27 AM</span>
+                            </div>
+                            <div class="message-bubble sent">That sounds impressive! How's the file sharing feature? I
+                                need to send large design files to my team.</div>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="message-avatar avatar-liam">L</div>
+                        <div class="message-content">
+                            <div class="message-sender">
+                                Liam <span class="time">10:28 AM</span>
+                            </div>
+                            <div class="message-bubble received">It's fantastic! I sent a 2GB video file yesterday with
+                                no issues. The transfer was encrypted and super fast.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input">
+                    <input type="text" placeholder="Type a message..." id="messageInput">
+                    <button class="send-btn" onclick="sendMessage()">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="section-header">
+                <h2>Trusted by Millions</h2>
+                <p>Don't just take our word for it. See what our users have to say about their Chatr experience.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        Chatr has transformed how our remote team communicates. The video quality is exceptional, and
+                        the security features give us peace of mind when discussing sensitive projects.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>CTO, Tech Innovations</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        As a freelance designer, I need to share large files with clients securely. Chatr's encrypted
+                        file sharing and clean interface make my workflow so much smoother.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        We switched our entire company to Chatr last quarter and haven't looked back. The private
+                        channels and admin controls are exactly what we needed for secure team collaboration.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">D</div>
+                        <div class="author-info">
+                            <h4>David Rodriguez</h4>
+                            <p>IT Director, Global Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>Ready to Experience Chatr?</h2>
+                <p>Join millions of users who trust Chatr for secure, seamless communication. Download now and start
+                    connecting with confidence.</p>
+                <div class="cta-buttons">
+                    <button class="btn-download" onclick="downloadApp()">
+                        <i class="fas fa-download"></i>
+                        Download Chatr Desktop
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Chatr</h4>
+                    <p style="color: var(--text-secondary); margin-bottom: 20px;">
+                        Secure communication for everyone. Connecting people through privacy-focused technology.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Features</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> End-to-End Encryption</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Private Channels</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> File Sharing</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Video Calls</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Custom Themes</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Documentation</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> API Reference</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Tutorials</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Community</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Support Center</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2023 Chatr Technologies. All rights reserved.
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-apple"></i></a>
+                    <a href="#"><i class="fab fa-windows"></i></a>
+                    <a href="#"><i class="fab fa-linux"></i></a>
+                    <a href="#"><i class="fab fa-android"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
